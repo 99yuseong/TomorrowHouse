@@ -37,21 +37,18 @@
 @mixin text-style($size, $color: false) {
     @if $size == 12 {
         @include text-style-12();
-    }
-    @if $size == 13 {
+    } @else if $size == 13 {
         @include text-style-13();
-    }
-    @if $size == 14 {
+    } @else if $size == 14 {
         @include text-style-14();
-    }
-    @if $size == 16 {
+    } @else if $size == 16 {
         @include text-style-16();
-    }
-    @if $size == 18 {
+    } @else if $size == 18 {
         @include text-style-18();
-    }
-    @if $size == 24 {
+    } @else if $size == 24 {
         @include text-style-24();
+    } @else {
+        @error 'check text-style size';
     }
     @if type-of($color) == color {
         color: $color;

@@ -7,11 +7,17 @@
 @import './base/normalize';
 @import './base/reset';
 
-//mixins
+// mixins
 @import './mixins/text-style';
 @import './mixins/responsive';
 @import './mixins/positions';
 @import './mixins/flexbox';
+
+// modules
+@import './modules/tags';
+@import './modules/avatar';
+@import './modules/star-ratings';
+@import './modules/price';
 
 // layout
 @import './layouts/grid';
