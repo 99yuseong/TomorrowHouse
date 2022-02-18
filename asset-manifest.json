@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TomorrowHouse/static/css/main.073c9b0a.css",
-    "main.js": "/TomorrowHouse/static/js/main.8ff0c415.js",
-    "static/js/787.f5f64364.chunk.js": "/TomorrowHouse/static/js/787.f5f64364.chunk.js",
-    "static/media/logo.svg": "/TomorrowHouse/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/TomorrowHouse/static/css/main.bf8aa949.css",
+    "main.js": "/TomorrowHouse/static/js/main.c4865a8d.js",
+    "static/media/img-user-01.jpg": "/TomorrowHouse/static/media/img-user-01.2256ec702dae1d8c2fc7.jpg",
+    "static/media/Logo.svg": "/TomorrowHouse/static/media/Logo.6c4acd2da6d5080bfa880acd62170263.svg",
     "index.html": "/TomorrowHouse/index.html",
-    "main.073c9b0a.css.map": "/TomorrowHouse/static/css/main.073c9b0a.css.map",
-    "main.8ff0c415.js.map": "/TomorrowHouse/static/js/main.8ff0c415.js.map",
-    "787.f5f64364.chunk.js.map": "/TomorrowHouse/static/js/787.f5f64364.chunk.js.map"
+    "static/media/Star.svg": "/TomorrowHouse/static/media/Star.7a3f0100a2248f2d32a1a60f697f5497.svg",
+    "main.bf8aa949.css.map": "/TomorrowHouse/static/css/main.bf8aa949.css.map",
+    "main.c4865a8d.js.map": "/TomorrowHouse/static/js/main.c4865a8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8ff0c415.js"
+    "static/css/main.bf8aa949.css",
+    "static/js/main.c4865a8d.js"
   ]
 }
