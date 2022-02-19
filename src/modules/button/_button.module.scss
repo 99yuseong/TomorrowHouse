@@ -1,3 +1,5 @@
+@import 'src/scss/main.scss';
+
 %btn-base {
     @include inline-flex();
     padding: 0 8px;
@@ -9,27 +11,27 @@
     }
 }
 
-.btn-55 {
+.btn55 {
     @include text-style(18);
     height: 55px;
 }
 
-.btn-48 {
+.btn48 {
     @include text-style(16);
     height: 48px;
 }
 
-.btn-40 {
-    @include text-style(18);
+.btn40 {
+    @include text-style(16);
     height: 40px;
 }
 
-.btn-32 {
+.btn32 {
     @include text-style(14);
     height: 32px;
 }
 
-.btn-primary {
+.primary {
     @extend %btn-base;
     background-color: $blue;
     color: $white;
@@ -39,7 +41,7 @@
     }
 }
 
-.btn-secondary {
+.secondary {
     @extend %btn-base;
     background-color: $border;
     color: $primary;
@@ -49,7 +51,7 @@
     }
 }
 
-.btn-outline {
+.outlined {
     @extend %btn-base;
     border: 1px solid $blue;
     background-color: $white;
@@ -60,7 +62,7 @@
     }
 }
 
-.btn-ghost {
+.ghost {
     @extend %btn-base;
     background-color: transparent;
     color: $primary;
