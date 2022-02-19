@@ -1,8 +1,11 @@
+@import 'src/scss/main.scss';
+
 %price-base {
     @include inline-flex();
     color: $dark;
     line-height: 1;
     font-weight: 700;
+
     .price {
         font-family: $font-price;
     }
@@ -11,7 +14,7 @@
     }
 }
 
-.price-16 {
+.price16 {
     @extend %price-base;
     .price {
         font-size: 16px;
@@ -23,7 +26,7 @@
     }
 }
 
-.price-20 {
+.price20 {
     @extend %price-base;
     .price {
         font-size: 20px;
@@ -35,7 +38,7 @@
     }
 }
 
-.price-32 {
+.price32 {
     @extend %price-base;
     .price {
         font-size: 32px;
@@ -49,7 +52,7 @@
     }
 }
 
-.price-discount {
+.priceDiscount {
     @extend %price-base;
     color: $secondary;
     font-weight: normal;
