@@ -1,14 +1,16 @@
+@import 'src/scss/main.scss';
+
 %star-rating-base {
     @include inline-flex();
     svg {
         fill: $border;
-        &.is-active {
+        &.isActive {
             fill: $blue;
         }
     }
 }
 
-.star-rating-13 {
+.rating13 {
     @extend %star-rating-base;
     svg {
         width: 13px;
@@ -16,7 +18,7 @@
     }
 }
 
-.star-rating-16 {
+.rating16 {
     @extend %star-rating-base;
     svg {
         width: 16px;
@@ -24,7 +26,7 @@
     }
 }
 
-.star-rating-20 {
+.rating20 {
     @extend %star-rating-base;
     svg {
         width: 20px;
@@ -32,7 +34,7 @@
     }
 }
 
-.star-rating-24 {
+.rating24 {
     @extend %star-rating-base;
     svg {
         width: 24px;
