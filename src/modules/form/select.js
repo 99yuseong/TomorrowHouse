@@ -7,7 +7,9 @@ const Select = ({ options }) => {
             <Caret className={style.caret} />
             <select className={style.select}>
                 {options.map((option, index) => (
-                    <option value={index}>{option}</option>
+                    <option key={index} value={index}>
+                        {option}
+                    </option>
                 ))}
             </select>
         </div>
