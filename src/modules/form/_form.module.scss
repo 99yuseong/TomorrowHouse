@@ -1,3 +1,5 @@
+@import 'src/scss/main.scss';
+
 %form-base {
     @include text-style(16, $primary);
     display: block;
@@ -22,7 +24,7 @@
     }
 }
 
-.select-group {
+.selectGroup {
     position: relative;
     .select {
         @extend %form-base;
@@ -48,7 +50,7 @@
     }
 }
 
-.input-group {
+.inputGroup {
     position: relative;
     .input {
         @extend %form-base;
