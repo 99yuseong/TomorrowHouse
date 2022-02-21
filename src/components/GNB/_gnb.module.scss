@@ -1,0 +1,30 @@
+// @import 'src/scss/main.scss';
+
+.writingBtn svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.iconBtn {
+    @include inline-flex();
+    width: 32px;
+    height: 32px;
+    svg {
+        width: 20px;
+        height: 20px;
+        fill: $secondary;
+    }
+}
+
+.gnbLeft {
+    position: relative;
+    .logo {
+        @include pos-center();
+        svg {
+            width: auto;
+            height: 20px;
+            fill: $dark;
+        }
+    }
+}

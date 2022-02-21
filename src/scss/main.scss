@@ -1,7 +1,5 @@
 //constants
-@import './constants/colors';
-@import './constants/typography';
-@import './constants/breakpoint';
+@import './constants';
 
 // base
 @import './base/normalize';
@@ -9,10 +7,7 @@
 @import './base/globals';
 
 // mixins
-@import './mixins/text-style';
-@import './mixins/responsive';
-@import './mixins/positions';
-@import './mixins/flexbox';
+@import './mixins';
 
 // layout
 @import './layouts/grid';
