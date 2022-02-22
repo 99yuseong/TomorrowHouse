@@ -1,0 +1,63 @@
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 3px solid $white;
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &:hover {
+        border: 3px solid $blue;
+    }
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownList {
+    @include pos-center-x;
+    width: 200px;
+    padding: 8px;
+    position: absolute;
+    top: 22px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    background-color: $white;
+    box-shadow: $dropdown;
+
+    &::before,
+    &::after {
+        @include pos-center-x;
+        content: '';
+        width: 0;
+        height: 0;
+        top: -26px;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid $white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+
+    &::before {
+        border-bottom: 14px solid $border;
+        top: -28px;
+    }
+}
+
+.dropdownItem {
+    a,
+    button {
+        @include flex(start);
+        @include text-style(16, $primary);
+        width: 100%;
+        height: 44px;
+        padding: 0 8px;
+    }
+}

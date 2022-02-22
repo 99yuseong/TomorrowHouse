@@ -1,0 +1,69 @@
+.iconBtn {
+    @include inline-flex();
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    fill: $secondary;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    &:hover {
+        background-color: $blue;
+        fill: $white;
+    }
+
+    &:active {
+        fill: $primary;
+    }
+
+    &.menu {
+        fill: $blue;
+
+        &:active {
+            fill: $blue-dark;
+        }
+    }
+
+    .badge {
+        $height: 16px;
+
+        display: block;
+        min-width: $height;
+        height: $height;
+        padding: 0 5px;
+        border-radius: $height / 2;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-color: $red;
+        color: $white;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.auth {
+    @include inline-flex();
+    margin-left: 17px;
+
+    a {
+        @include text-style(14, $secondary);
+        font-weight: 700;
+        transition: color 200ms ease-in-out;
+
+        &:first-child {
+            margin-right: 12px;
+        }
+
+        &:hover {
+            color: $blue;
+        }
+    }
+}
