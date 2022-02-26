@@ -10,6 +10,10 @@
     border: 0 !important;
 }
 
+.hidden {
+    display: none;
+}
+
 .sm-only {
     @media screen and (min-width: $md-breakpoint) {
         display: none !important;

@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import style from './_gnb.module.scss';
 import Input from '../../modules/form/input';
 import Button from '../../modules/button/button';
@@ -11,6 +13,20 @@ import { ReactComponent as Cart } from '../../assets/images/Icon/Cart.svg';
 import { ReactComponent as Chevron } from '../../assets/images/Icon/Chevron.svg';
 
 const GlobalNaviBar = () => {
+    const [isActive, setActive] = useState(false);
+
+    const clickMyMenu = () => {
+        setActive(!isActive);
+    };
+
+    const blurMyMenu = () => {
+        setActive(!isActive);
+    };
+
+    const dropdownClick = (event) => {
+        event.preventDefault();
+    };
+
     return (
         <header className={style.gnb}>
             <div className="container">
@@ -107,22 +123,30 @@ const GlobalNaviBar = () => {
                                             </strong>
                                         </a>
                                     </div>
-
                                     <div
                                         className={`sm-hidden ${style.btnItem} ${style.myMenu}`}
+                                        onBlur={blurMyMenu}
                                     >
                                         <button
                                             className={`${style.iconBtn} ${style.avatar}`}
                                             type="button"
                                             aria-label="마이메뉴 열기 버튼"
+                                            onClick={clickMyMenu}
                                         >
                                             <img
                                                 src={require('../../assets/images/img-user-01.jpg')}
                                                 alt="user profile"
                                             />
                                         </button>
-                                        <div className={style.dropdown}>
-                                            <ul className={style.dropdownList}>
+                                        <div
+                                            className={style.dropdown}
+                                            onMouseDown={dropdownClick}
+                                        >
+                                            <ul
+                                                className={`${
+                                                    style.dropdownList
+                                                } ${isActive ? '' : 'hidden'}`}
+                                            >
                                                 <li
                                                     className={
                                                         style.dropdownItem
