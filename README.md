@@ -96,3 +96,55 @@
     </div>
 </div>
 ```
+
+2. sideBar
+
+-   로그인을 했을 때
+
+```jsx
+<div className={style.avatar}>
+    <a href="/">
+        <div className={style.avatarImg}>
+            <Avatar
+                url={require('../../assets/images/img-user-01.jpg')}
+                size="24"
+            />
+        </div>
+        <h2 className={style.username}>사달라</h2>
+    </a>
+</div>
+```
+
+-   로그인을 하지 않았을 때
+
+```jsx
+<div className={style.auth}>
+    <a href="/">
+        <Button text="로그인" color="outlined" height="40" />
+    </a>
+    <a href="/">
+        <Button text="회원가입" color="primary" height="40" />
+    </a>
+</div>
+
+<footer className={style.footer}>
+    <h2 className="visually-hidden">유저 메뉴</h2>
+    <ul className={style.footerList}>
+        <li>
+            <a href="/">마이페이지</a>
+        </li>
+        <li>
+            <a href="/">나의쇼핑</a>
+        </li>
+        <li>
+            <a href="/">스크랩북</a>
+        </li>
+        <li>
+            <a href="/">알림</a>
+        </li>
+        <li>
+            <a href="/">이벤트</a>
+        </li>
+    </ul>
+</footer>
+```
