@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/TomorrowHouse/static/css/main.9ce0c7d5.css",
+    "main.js": "/TomorrowHouse/static/js/main.23e867ed.js",
+    "static/media/img-user-01.jpg": "/TomorrowHouse/static/media/img-user-01.2256ec702dae1d8c2fc7.jpg",
+    "static/media/Expert.svg": "/TomorrowHouse/static/media/Expert.bf31738ac498591c466c3dc51e29543d.svg",
+    "static/media/Cart.svg": "/TomorrowHouse/static/media/Cart.699c4149f8d101eb14840582a61e4d22.svg",
+    "static/media/Bell.svg": "/TomorrowHouse/static/media/Bell.f3d16db7eed54b30f6bc7d359318ae2f.svg",
+    "static/media/Logo.svg": "/TomorrowHouse/static/media/Logo.6c4acd2da6d5080bfa880acd62170263.svg",
+    "static/media/Store.svg": "/TomorrowHouse/static/media/Store.634747c7ad39f02602a2ef9d497ead30.svg",
+    "static/media/Community.svg": "/TomorrowHouse/static/media/Community.6190e62dfd11fa825aab5e7c43e914b4.svg",
+    "index.html": "/TomorrowHouse/index.html",
+    "static/media/New.svg": "/TomorrowHouse/static/media/New.7e4294b000870c06f829c83a77fac623.svg",
+    "static/media/Search.svg": "/TomorrowHouse/static/media/Search.593590996a65a8b01488d246bc8a1abc.svg",
+    "static/media/Bookmark.svg": "/TomorrowHouse/static/media/Bookmark.cb0fd73423a36427c13b760ed115af6b.svg",
+    "static/media/Menu.svg": "/TomorrowHouse/static/media/Menu.5a2c4438f25649d30906dde872f9bd8c.svg",
+    "static/media/Star.svg": "/TomorrowHouse/static/media/Star.7a3f0100a2248f2d32a1a60f697f5497.svg",
+    "static/media/Chevron.svg": "/TomorrowHouse/static/media/Chevron.b9d718251639e1cd8d65ca6d1cbffa9d.svg",
+    "static/media/Caret.svg": "/TomorrowHouse/static/media/Caret.fd47068411c815fb46f1a9b61c36340c.svg",
+    "main.9ce0c7d5.css.map": "/TomorrowHouse/static/css/main.9ce0c7d5.css.map",
+    "main.23e867ed.js.map": "/TomorrowHouse/static/js/main.23e867ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ce0c7d5.css",
+    "static/js/main.23e867ed.js"
+  ]
+}
